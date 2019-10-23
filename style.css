@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.wrapper {
+    width: 100%;
+    background-color: #1A1A1A;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 115px;
+}
+
+.logo,
+.contact {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 20%;
+}
+
+.contact {
+    width: 65%;
+    text-align: right;
+    margin-left: 80px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #1A1A1A;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #9C9EA1;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+.main-pic {
+    width: 100%;
+}
+
+.content {
+    height: 100px;
+    background-color: #1A1A1A;
+    padding: 40px;
+}
+
+.content-icon,
+.content-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content-icon {
+    width: 3%;
+}
+
+.content-text {
+    width: 20%;
+}
+
+.content-text h3 {
+    color: #D57C2C;
+}
+
+.buynow {
+    background-color: #070707;
+    padding: 40px;
+}
+
+.buynow-text,
+button {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.buynow-text {
+    width: 50%;
+}
+
+button {
+    width: 10%;
+    margin-left: 150px;
+    background-color: #D57C2C;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.porfolio {
+    background-color: #1A1A1A;
+}
+
+.porfolio-header {
+    padding: 40px;
+}
+
+.porfolio-header h2,
+p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.porfolio-header h2 {
+    width: 20%
+}
+
+.porfolio-header p {
+    width: 20%;
+    margin-left: 800px;
+    text-align: right;
+    font-style: italic;
+    color: #D57C2C;
+}
+
+.porfolio-tab {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 30px;
+}
+
+.porfolio-pic {
+    width: 100%;
+    height: 300px;
+}
+
+.porfolio h3 {
+    color: #D57C2C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 85%;
+    margin-top: 40px;
+    color: #76716C;
+    text-align: right;
+    font-size: 10pt;
+}
